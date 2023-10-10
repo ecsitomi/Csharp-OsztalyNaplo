@@ -15,7 +15,7 @@ namespace OsztalyNaplo
         public string ParentName { get; set; }
         public string Email { get; set; }
 
-        public Student(string name, List<int> grades, string address, int age, string parentName, string email)
+        public Student(string name, string address, int age, string parentName, string email)
         {
             Name = name;
             Grades = new List<int>();

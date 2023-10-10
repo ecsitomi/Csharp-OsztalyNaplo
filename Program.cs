@@ -10,6 +10,7 @@ namespace OsztalyNaplo
     {
         static void Main(string[] args)
         {
+            Student Tamas = new Student("Tamás", "Eger", 30, "Apa", "email");
         }
     }
 }
